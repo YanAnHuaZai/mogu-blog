@@ -74,7 +74,7 @@ spring:
   # DATABASE CONFIG
   datasource:
     username: root
-    password: root
+    password: HuaZai6
     url: jdbc:mysql://localhost:3306/mogu_blog?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
@@ -125,8 +125,8 @@ spring:
   rabbitmq:
     host: 127.0.0.1 #rabbitmq的主机ip
     port: 5672
-    username: guest
-    password: guest
+    username: admin
+    password: admin
 
   boot:
     admin:
